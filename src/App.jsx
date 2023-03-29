@@ -1,11 +1,21 @@
 import React from "react";
-import "./App.css";
-import Mul from "./MultipleSlot";
+import { BrowserRouter } from "react-router-dom";
+import { Route,Routes } from "react-router-dom";
+import StateWD from "./Component/StateWD"
+import Pokemon from "./Component/Pokemon";
+
 const App = () =>
 {
     return(
-    <>
-     <Mul/>
+        <>
+        
+        <BrowserRouter>
+         <Routes>
+         <Route path='/' element={<StateWD/>}/>
+        <Route path='/home' element= {<Pokemon/>}   />
+        
+      </Routes>
+      </BrowserRouter>
     </>
     );
 }

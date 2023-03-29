@@ -1,0 +1,81 @@
+*
+{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.d5
+{
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     margin: 30px;
+     
+}
+
+.active
+{
+    padding: 2px;
+    color: red;
+    background-color: rgb(17, 17, 3);
+  
+}
+
+.active
+{
+    text-decoration: none;
+   
+}
+
+.red
+{
+   text-decoration: none;
+   padding: 3px 10px;   
+   font-family: serif; 
+}
+
+li
+{
+    list-style: none;
+}
+
+h3
+{
+    margin-bottom: 10px;
+}
+
+.yes
+
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 35px;
+
+}
+span
+{
+    color: rgb(16, 152, 237);
+    font-size: larger;
+}
+
+select:focus
+{
+    border: none;
+    outline: none;
+    
+}
+select
+{
+    border: none;
+    color: rgb(0, 255, 166);
+    border: 1px solid red;
+    background-color: black;
+    padding: 5px;
+    margin-bottom: 30px;
+}
